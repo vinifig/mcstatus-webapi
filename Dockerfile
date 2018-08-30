@@ -4,7 +4,7 @@ RUN apt-get update
 RUN apt-get install -y python-pip
 RUN pip install mcstatus
 
-EXPOSE 8080
+EXPOSE 80 80
 
 WORKDIR /app
 

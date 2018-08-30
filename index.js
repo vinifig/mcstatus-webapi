@@ -123,4 +123,4 @@ app.get('/ping/:ip', async (req, res) => {
     }
 })
 
-app.listen(8080);
+app.listen(80);
